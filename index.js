@@ -64,3 +64,38 @@ let allWords = word1 + word2 + word3 + word4 + word5;
 let lengthWords = allWords.length;
 
 console.log(lengthWords);
+
+//6 - exercise//
+const vehicleBrand = "Volkswagen";
+const engine = 1.8;
+let inshurance = true;
+
+console.log(`Variable: vehicleBrand have type: ${typeof vehicleBrand}`);
+console.log(`Variable: engine have type: ${typeof engine}`);
+console.log(`Variable: inshurance have type: ${typeof inshurance}`);
+
+//7 - exercise//
+const yourName = prompt ("Как тебя зовут?", "Аноним");
+let yourAge = prompt ("Сколько тебе лет?");
+console.log("Вы " + yourName + ", Вам: " + yourAge + " лет."); // Вы Аноним, Вам: 20 лет.
+
+
+//LEVEL - UP//
+let r = 4;
+let e = 3;
+
+[r,e] = [e,r];
+
+console.log(r, e);
+
+
+let codeWord1 = "обернись";
+let codeWord2 = "неужели";
+let codeWord3 = "огурцы";
+let codeWord4 = "липкие";
+let codeWord5 = "?!";
+
+ 
+
+let cipher = codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + codeWord5[1];
+console.log(cipher);
